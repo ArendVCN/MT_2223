@@ -4,4 +4,4 @@ This repository contains the scripts necessary to create the phosphorylation sit
 
 - *scripts*: contains all scripts for P-site dataset creation, model training and analyses.
 - *PSite_Files*: contains the raw FASTA files for the serine/threonine and tyrosine datasets, split into separate files for training (85%), testing (10%) and validation (5%).
-- *Kinase_Specificity*: contains three .json files with Python dictionaries linking P-sites (i.e. substrates) to their Kinase Group. Version 2 is the result of running **Kinase_Specificity.py**, Version 1 is deprecated and **TopRank** is the result of simply assigning the Kinase Group with rank number 1 to the susbtrate.
+- *Kinase_Specificity*: contains three .json files with Python dictionaries linking P-sites (i.e. substrates) to their Kinase Group. Version 2 is the result of running the current iteration of **Kinase_Specificity.py**, Version 1 is deprecated from a previous iteration and **TopRank** is the result of simply assigning the Kinase Group with rank number 1 to the susbtrate.
