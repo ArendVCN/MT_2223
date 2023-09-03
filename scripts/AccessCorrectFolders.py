@@ -30,7 +30,7 @@ def access_folders(embed_type: str, psite: str):
 
     # Write the paths to the train, test and valid datasets
     rep_home_folder = "/data/home/arendvc/"
-    rep_path = os.path.join(rep_home_folder, embed_type)
+    rep_path = os.path.join(rep_home_folder, embed_type + '_outputs')
 
     datasets = ["train", "test", "valid"]
 
