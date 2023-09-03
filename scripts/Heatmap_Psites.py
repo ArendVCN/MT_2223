@@ -9,7 +9,7 @@ from AccessCorrectFolders import access_folders, abbreviate_embed_names
 Create a heatmap showing the mean average over all P-sites for a specified field size surrounding the putative P-site 
 for all embedded channels (or part of in case the number is too large to visualize).
 
-Execute by calling `python Heatmap_Psites.py <embed_type> <P-site> <radius> <psite_status>
+Execute by calling `python Heatmap_Psites.py <embed_type> <P-site> <radius>
 - embed_type = onehot, onehot+DSSP, esm, carp or alphafold
 - P-site = ST or Y
 - radius: radius of the receptive field surrounding the P-site (e.g. 10 --> 10+S/T/Y+10 = 21)
